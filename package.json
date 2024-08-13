@@ -1,0 +1,42 @@
+{
+  "name": "oauth2orize-ciba",
+  "version": "0.0.0",
+  "description": "CIBA exchange for OAuth2orize.",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "ciba"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/oauth2orize-ciba.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/oauth2orize-ciba/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "utils-merge": "^1.0.0"
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0",
+    "chai-connect-middleware": "^0.3.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
